@@ -1,0 +1,125 @@
+/*		all tag 	*/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: "Microsoft Yahei"
+}
+
+.main {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url('../image/background.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.text_box {
+	margin-top: 12em;
+}
+
+.text_box p {
+	font-size: 20px;
+	z-index: 10;
+	margin: 1em;
+	display: none;
+	position: relative;
+	text-align: center;
+}
+
+
+.moon_box {
+	width: 50%;
+	height: 28%;
+	display: none;
+	margin-top: 10em;
+	margin-right: 1em;
+	position: absolute;
+	right: 0;
+	z-index: 5;
+	background-image: url('../image/moon.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.people_box {
+	width: 50%;
+	display: none;
+	height: 35%;
+	float: left;
+	position: absolute;
+	bottom: 0;
+	background-image: url('../image/people.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	z-index: 6;
+	margin-left: .5em;
+}
+
+.brige_box {
+	width: 50%;
+	height: 35%;
+	float: left;
+	position: absolute;
+	bottom: -14em;
+	background-image: url('../image/bridge.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	z-index: 5;
+	margin-bottom: 2em;
+	margin-left: 3em;
+}
+
+.threed{
+	color: #fafafa;
+	letter-spacing: 0;
+	text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135 
+}
+
+.moon_box {
+    background: #FCF0BC;
+    margin-top: 10em;
+    height: 6em;
+    width: 6em;
+		margin-right: 1em;
+		position: absolute;
+		right: 0;
+		z-index: 5;
+    display: none;
+    border-radius: 50%;
+    box-shadow: 0 0 1.5rem #FCF0BC;
+    -webkit-animation: nucleus 2s infinite linear;
+    -moz-animation: nucleus 2s infinite linear;
+}
+/**
+ * 光晕效果
+ */
+
+@-webkit-keyframes nucleus {
+    0% {
+        box-shadow: 0 0 0 transparent;
+    }
+    50% {
+        box-shadow: 0 0 1rem #FCF0BC;
+    }
+    100% {
+        box-shadow: 0 0 0 transparent;
+    }
+}
+
+@-moz-keyframes nucleus {
+    0% {
+        box-shadow: 0 0 0 transparent;
+    }
+    50% {
+        box-shadow: 0 0 1rem #FCF0BC;
+    }
+    100% {
+        box-shadow: 0 0 0 transparent;
+    }
+}
+
+
